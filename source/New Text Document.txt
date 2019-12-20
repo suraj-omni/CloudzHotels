@@ -1,0 +1,13 @@
+npm i -g create-react-app
+npm init react-app my-app
+npm install react-burger-menu --save
+
+npm install react-owl-carousel2 --save
+import 'react-owl-carousel2/lib/styles.css'; had to change it
+npm install react-image-gallery
+
+
+
+npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+npm install animate.css --save

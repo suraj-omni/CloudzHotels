@@ -1,0 +1,259 @@
+html,
+body {
+  margin: 0;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #004080;
+  text-align: left;
+  background-color: #ffffff;
+  margin-bottom: 60px;
+}
+
+#app-container {
+  height: 100vh;
+}
+
+.f-pf{
+
+  font-family: 'Playfair Display', serif !important;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#page-container {
+  text-align: center;
+  overflow: auto;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: left;
+  list-style: none;
+  background-color: #004080;
+  background-clip: padding-box;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.headermenudiv {
+  position: absolute;
+  left: 80px;
+  top: 28px;
+}
+
+#sidemenudropdown1 {
+  color: #004080 !important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#sidemenudropdown {
+  padding: 0;
+  color: #ffffff;
+}
+
+#selecthotelddl .nav-link {
+  display: block;
+  padding: 0.1rem 1rem;
+}
+
+#selecthotelddl .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-size: 0.9rem;
+}
+
+.bg-light {
+  background-color: #e7e7ff !important;
+  color: #004080;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 25px;
+  left: 30px;
+  top: 30px;
+}
+
+.bm-burger-bars {
+  background: #004080;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #004080;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #004080;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: #3d92ce;
+}
+
+/* slider */
+
+.overlay-a {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 27%,
+    rgba(0, 0, 0, 0.65) 90%
+  );
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* end of slider */
+
+/* main home */
+
+.mainhomeimg {
+  height: 100px;
+  width: 100px;
+}
+
+.mainhomebg {
+  background-image: url("../src/img/clouds.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.fa-size{
+  font-size: 6rem;
+}
+
+/* end of main home */
+
+/* footer */
+
+.footer {
+  background-color: #004080;
+  
+}
+
+.footertext {
+ 
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+  font-stretch:extra-expanded;
+  text-align: center;
+  color: #5EBABA;
+  
+}
+
+/* footer */
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  #headermenudiv {
+    display: none !important;
+  }
+
+  h3, .h3 {
+    font-size: 1.4rem;
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+}
