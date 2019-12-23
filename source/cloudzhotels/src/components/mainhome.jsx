@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import HomeSlider from './slider';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -10,13 +11,13 @@ import { faGem } from "@fortawesome/free-solid-svg-icons";
 import { faHotel } from "@fortawesome/free-solid-svg-icons";
 import { faWineGlassAlt } from "@fortawesome/free-solid-svg-icons";
 import { faLuggageCart } from "@fortawesome/free-solid-svg-icons";
-import AOS from "aos";
 
 class MainHome extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
+        <HomeSlider></HomeSlider>
         <Container>
           <Row className="my-4">
             <Col>

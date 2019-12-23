@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel2";
-import 'react-owl-carousel2/lib/styles.css'; //Allows for server-side rendering.
+import 'react-owl-carousel2/lib/styles.css';
 
 class HomeSlider extends Component {
   state = {};

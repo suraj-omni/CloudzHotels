@@ -1,24 +1,24 @@
 html,
 body {
   margin: 0;
-  
-  font-family: 'Open Sans', sans-serif;
+
+  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #004080;
   text-align: left;
   background-color: #ffffff;
   margin-bottom: 60px;
+  letter-spacing: 0.1px;
 }
 
 #app-container {
   height: 100vh;
 }
 
-.f-pf{
-
-  font-family: 'Playfair Display', serif !important;
+.f-pf {
+  font-family: "Playfair Display", serif !important;
 }
 
 .bd-placeholder-img {
@@ -77,8 +77,8 @@ body {
 
 .headermenudiv {
   position: absolute;
-  left: 80px;
-  top: 28px;
+  left: 70px;
+  top: 30px;
 }
 
 #sidemenudropdown1 {
@@ -132,7 +132,7 @@ body {
   position: fixed;
   width: 30px;
   height: 25px;
-  left: 30px;
+  left: 25px;
   top: 30px;
 }
 
@@ -204,7 +204,7 @@ body {
   background-size: cover;
 }
 
-.fa-size{
+.fa-size {
   font-size: 6rem;
 }
 
@@ -214,25 +214,137 @@ body {
 
 .footer {
   background-color: #004080;
-  
 }
 
 .footertext {
- 
   font-family: "Open Sans", sans-serif;
   font-size: 0.7rem;
-  font-stretch:extra-expanded;
+  font-stretch: extra-expanded;
   text-align: center;
-  color: #5EBABA;
-  
+  color: #ffffff;
 }
 
 /* footer */
+
+/* sigiriya hotel home */
+
+/* slider */
+
+.cslogo {
+  height: 150px !important;
+  width: 300px !important;
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 160px);
+  opacity: 0.5;
+}
+
+/* end of slider */
+
+/* 3 navigations  */
+ul#navigationlist {
+  list-style: none;
+  min-width: 30%;
+  height: 100px;
+  padding: 1rem;
+}
+ul#navigationlist li {
+  display: inline;
+  padding: 1rem;
+}
+
+.belogosize{
+  max-width: 150px;
+  width: 25%;
+}
+
+/* end of 3 nav bars */
+
+/* near by attractions */
+
+.descriptionoverlay{
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 5rem);
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+/* end of attractions */
+
+/* accomadation  */
+
+#roomslist .nav-link {
+  display: block;
+  padding: 0.1rem 1rem;
+}
+
+#roomslist .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-size: 0.9rem;
+}
+
+.accomadationpic {
+  width: 25rem;
+  height: auto;
+}
+
+.descripfont{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.accomadateimgwrapper:hover .overlay1 {
+  opacity: 1;
+}
+
+
+.overlayimage {
+  position: absolute;
+  top: 3px;
+  left: 3.5px;
+}
+
+
+/* end of accomadation */
+
+/* gallary */
+
+.gallaryimagesize{
+  width: 70%;
+  height: 70%;
+}
+
+
+
+/* end of gallary */
+
+/* end of sigiriya hotel home  */
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+
+
 }
 
 /* SMARTPHONES PORTRAIT */
@@ -241,9 +353,54 @@ body {
     display: none !important;
   }
 
-  h3, .h3 {
+  h3,
+  .h3 {
     font-size: 1.4rem;
   }
+
+  .descripfont {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .bm-burger-button {
+    position: fixed;
+    width: 30px;
+    height: 25px;
+    left: 5px;
+    top: 30px;
+  }
+  /* sigiriya hotel home */
+
+  /* slider */
+
+  .cslogo {
+    height: 75px !important;
+    width: 150px !important;
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 75px);
+    opacity: 0.5;
+  }
+
+  /* end of slider */
+
+  /* gallary */
+
+  .image-gallery-bullets {
+    bottom: 20px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 80%;
+    z-index: 4;
+    display: none;
+  }
+
+  /* end of gallary */
+
+  /* end of sigiriya hotel home  */
 }
 
 /* SMARTPHONES LANDSCAPE */
@@ -252,8 +409,26 @@ body {
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+.descripfont {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
 }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+
+  /* gallary */
+  .image-gallery-slide {
+    background: #fff;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100% !important;
+  }
+  /* enf of gallary */
+
+
 }

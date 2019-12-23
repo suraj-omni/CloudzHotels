@@ -11,3 +11,5 @@ npm install react-image-gallery
 npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 
 npm install animate.css --save
+
+npm install --save react-router-dom
